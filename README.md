@@ -1,6 +1,6 @@
 # Food Order Platform
 
-A go to NodeJS rest API boilerplate with expressJS and many more.
+A sample NodeJS rest API for food order platform.
 ## Technology used
 
 (List npm modules, frameworks or any other special or unique tech associated with repo)
@@ -25,6 +25,7 @@ A go to NodeJS rest API boilerplate with expressJS and many more.
 
 ## Features
 - Added databases like [mongoDB](https://github.com/mongodb/mongo) and [redis](https://redis.io/) using async await with latest standards
+- Added Email Feature with [mailgun](https://www.npmjs.com/package/mailgun-js)
 - Request logging with [express-request-logger](https://www.npmjs.com/package/express-requests-logger)
 - ES6,ES7,ES8 supported via [babel](https://github.com/babel/babel) with version ^7.*
 - Response logging with the help of middleware
@@ -80,9 +81,11 @@ npm start
 ```
 
 For Documentation
-
 ```
 npm run docs
+```
+Then start the command and use command
+```
 http://localhost:8080/docs
 ```
 
