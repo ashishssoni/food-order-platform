@@ -45,21 +45,6 @@ A go to NodeJS rest API boilerplate with expressJS and many more.
 git clone https://github.com/ashishssoni/food-order-platform <project-name>
 ```
 
-- Now after cloing the repo, do `ls -la` and remove the '.git' file
-- After deleting the .git file, add your project repo with
-
-```
-git init
-git remote add origin <project-github-link>
-```
-
-- After doing this, try `git remote -v`, you will see something like this
-
-```
-origin	git@github.org:<your-git-user>/<project-name>(fetch)
-origin	git@github.org:<your-git-user>/<project-name> (push)
-```
-
 - Now your project is in synced with github repo, move further with installing node modules
 
 ```
